@@ -1,0 +1,22 @@
+
+Experiments With Map Rendering
+==============================
+
+These are some experiments with new ways of writing map renderers and their
+configuration.
+
+These programs are not meant to be finished in any way, they might solve
+some problems and totally ignore others. They are helping me exploring the
+problem and solution space from different directions.
+
+All the software here is hereby released into the Public Domain.
+
+For some more background see this blog post:
+http://blog.jochentopf.com/2011-03-22-new-approaches-for-map-rendering.html
+
+To execute this code you'll need the GeoRuby and GD ruby gems.
+
+There is some test data in the 'data' directory. Everything you need for
+the renderers is in there already. If you want to create some different
+test data you'll need 'osmjs' from the Osmium package.
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+OSMJS=~/osm/osmium/osmium/osmjs/osmjs
+
+bzcat karlsruhe.osm.bz2 | $OSMJS -i osm2shape.js -j config.js -
